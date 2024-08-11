@@ -3,6 +3,6 @@ public with sharing class AccountController {
 
     }
     public static List<Account> getAccounts() {
-        return [SELECT Id, Name, Type, Industry, Phone, Website, AnnualRevenue FROM Account];
+        return [SELECT Id, Name, Type, Industry, Phone, Website, AnnualRevenue, Rating FROM Account];
     }
 }
